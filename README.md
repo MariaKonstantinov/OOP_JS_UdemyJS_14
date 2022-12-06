@@ -8,7 +8,7 @@ Constructor functions always start with capital letter.
 
 Function expression and function declarations both work here, arrow functions don't work here (because they don't have "this" keyword).
 
-<img src="./images/les_1.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; max-width: 120px">
+<img src="./images/les_1.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; width: 60px">
 
 What happens when we actually call this function with the "new" operator:
 
@@ -36,15 +36,15 @@ In our case - the prototype of jonas object is essentially the prototype propert
 
 So it can be called as a prototype of all linked objects.
 
-<img src="./images/les_2.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; max-width: 120px">
+<img src="./images/les_2.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; width: 60px">
 
 **Lesson 3: PROTOTYPAL INHERITANCE**
 
 If a property or a method can't be found in object itself, JS will look into its prototype. So we don't have calcAge function in jonas object, but it is available for us to use because JS finds it in the object prototype.
 
-<img src="./images/proto_inheritance.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="./images/proto_inheritance.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; width: 200px">
 
-<img src="./images/prototype_chain.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="./images/prototype_chain.png" alt="lesson 1" title="Lesson 1" style="display: inline-block; margin: 0 auto; width: 200px">
 
 **Lesson 4: PROTOTYPAL INHERITANCE ON BUILDIN OBJECTS**
 
