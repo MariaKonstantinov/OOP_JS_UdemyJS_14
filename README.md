@@ -1,4 +1,4 @@
-# Udemy JS Complete course (notes & exercises) 2023
+# Udemy JS Complete course (notes & exercises) 2023 - 69 total hours
 
 ### Section 14 - Object Oriented Programming
 
@@ -57,3 +57,7 @@ The prototype itself is an object.
 Functions are a special type of objects in JS. So they also have prototypes.
 
 **Lesson 5: ES6 CLASSES**
+
+**LINKS:**
+
+- [Link to Udemy JS course](https://www.udemy.com/course/the-complete-javascript-course/)
